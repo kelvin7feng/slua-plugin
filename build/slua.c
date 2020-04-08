@@ -49,10 +49,12 @@
 #endif
 
 LUA_API int luaopen_pack(lua_State *L);
+LUA_API int luaopen_cjson(lua_State *l);
 
 static const luaL_Reg s_lib_preload[] = {
 	{ "socket.core", luaopen_socket_core },
 	{ "luapack", luaopen_pack },
+	{ "cjson", luaopen_cjson },
 	// { "pb",    luaopen_pb }, // any 3rd lualibs added here
 	{ NULL, NULL }
 };
