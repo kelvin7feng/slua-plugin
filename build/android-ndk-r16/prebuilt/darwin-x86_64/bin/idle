@@ -1,5 +1,0 @@
-#!/Volumes/Android/buildbot/src/android/ndk-release-r16/out/build/buildhost/darwin-x86_64/install/host-tools/bin/python2.7
-
-from idlelib.PyShell import main
-if __name__ == '__main__':
-    main()
